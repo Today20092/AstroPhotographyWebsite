@@ -1,0 +1,85 @@
+:root {
+  --clr-primary-100: rgb(7, 226, 80);
+
+  --fs-100: 1rem;
+  --fs-200: 2rem;
+  --fs-300: 3rem;
+  --fs-400: 4rem;
+
+  --clr-before: hsla(192, 100%, 50%, 0.219);
+  --clr-after: hsla(192, 100%, 50%, 0.719);
+}
+
+/* border to see all elements */
+* {
+  border: 1px solid rgba(255, 208, 0, 0.5) !important;
+}
+
+img,
+svg,
+picture,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  color-scheme: dark;
+  margin: 1rem;
+}
+
+body {
+  color: var(--clr-primary-100);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--fs-100);
+  font-weight: 300;
+  line-height: 1.5;
+  /* From fireship.io */
+  background: linear-gradient(
+    176deg,
+    rgb(18, 24, 27) 50%,
+    rgb(32, 39, 55) 100%
+  );
+  min-height: 100vh;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+main {
+  margin: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* CLASSES */
+/* NAV BAR */
+
+.nav {
+  margin: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: var(--clr-before);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 1.1rem;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: var(--clr-after);
+}
+
+.navbar li {
+  float: left;
+}
