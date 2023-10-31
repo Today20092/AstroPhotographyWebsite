@@ -1,8 +1,13 @@
+---
+import '../css/style.css';
+---
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ayoub Photography</title>
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
   </head>
 
   <body>
@@ -25,16 +30,8 @@
 
     <main>
       <h1>Ayoub's Photography Website</h1>
-      <h3>THIS IS THE PORTFOLIO</h3>
-      <h4>See my photos:</h4>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore alias
-        expedita repellat velit architecto blanditiis accusantium? Dignissimos
-        commodi delectus, recusandae unde voluptatibus nam deleniti accusamus
-        nemo libero ut vel magnam. Libero rerum minus similique labore
-        necessitatibus repellat architecto, quis sit illo sequi atque esse ipsam
-        mollitia autem reiciendis perferendis delectus.
-      </p>
+      <h3>THIS IS THE CONTACT PAGE</h3>
+      <p>Contact me :)</p>
     </main>
   </body>
 </html>

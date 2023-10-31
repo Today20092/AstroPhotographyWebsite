@@ -2,11 +2,7 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		fontFamily:{
-			serif: ['Merriweather', 'serif'],
-		}
-		
-		extend: {},
+	extend: {},
 	},
 	plugins: [],
 }
