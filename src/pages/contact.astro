@@ -1,32 +1,17 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ayoub Photography</title>
-  </head>
+---
+import NavBar from "../components/NavBar.astro";
+import TopHead from "../components/TopHead.astro";
+---
 
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <div class="siteheader-inner">
-          <img src="http://placehold.it/50" alt="" />
-          <nav class="navbar">
-            <ul class="nav">
-              <li><a href="/astrowebsitephotography">Home</a></li>
-              <li>
-                <a href="/astrowebsitephotography/portfolio">Portfolio</a>
-              </li>
-              <li><a href="/astrowebsitephotography/contact">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+<TopHead />
+<body>
+  <header class="site-header">
+    <NavBar />
+  </header>
 
-    <main>
-      <h1>Ayoub's Photography Website</h1>
-      <h3>THIS IS THE CONTACT PAGE</h3>
-      <p>Contact me :)</p>
-    </main>
-  </body>
-</html>
+  <main>
+    <h1>Ayoub's Photography Website</h1>
+    <h3>THIS IS THE CONTACT PAGE</h3>
+    <p>Contact me :)</p>
+  </main>
+</body>

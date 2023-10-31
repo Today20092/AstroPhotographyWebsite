@@ -1,36 +1,21 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ayoub Photography</title>
-  </head>
+---
+import Footer from "../components/Footer.astro";
+import NavBar from "../components/NavBar.astro";
+import TopHead from "../components/TopHead.astro";
+---
 
-  <body class="font-serif">
-    <header class="bg-purple-500 text-center text-2xl">
-      <div>
-        <div class="">
-          <img src="http://placehold.it/50" alt="" class="" />
-          <nav class="">
-            <ul>
-              <li class="m-1 inline">
-                <a href="/astrowebsitephotography">Home</a>
-              </li>
-              <li class="m-1 inline">
-                <a href="/astrowebsitephotography/portfolio">Portfolio</a>
-              </li>
-              <li class="m-1 inline">
-                <a href="/astrowebsitephotography/contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+<TopHead />
 
-    <main>
-      <h1>Ayoub's Photography Website</h1>
-      <h3 class="bg-black text-5xl text-white">THIS IS THE HOME PAGE</h3>
-      <p>This is where i will make the website look nice</p>
-    </main>
-  </body>
-</html>
+<body class="font-serif">
+  <header>
+    <NavBar />
+  </header>
+
+  <main>
+    <h1>Ayoub's Photography Website</h1>
+    <h3 class="bg-black text-5xl text-white">THIS IS THE HOME PAGE</h3>
+    <p>This is where i will make the website look nice</p>
+  </main>
+
+  <Footer />
+</body>
