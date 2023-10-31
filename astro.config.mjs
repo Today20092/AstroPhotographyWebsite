@@ -5,5 +5,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site: 'https://today20092.github.io',
-  base: '/astrowebsitephotography',
+  base: '/astrophotographywebsite',
 });
