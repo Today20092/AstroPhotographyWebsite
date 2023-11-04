@@ -1,17 +1,21 @@
 ---
+import Ayoubtitle from "../components/AyoubTitle.astro";
+import Footer from "../components/Footer.astro";
 import NavBar from "../components/NavBar.astro";
 import TopHead from "../components/TopHead.astro";
+import "../css/AffectAll.css";
 ---
 
 <TopHead />
-<body>
+<>
   <header class="site-header">
     <NavBar />
   </header>
 
   <main>
-    <h1>Ayoub's Photography Website</h1>
+    <Ayoubtitle />
     <h3>THIS IS THE CONTACT PAGE</h3>
     <p>Contact me :)</p>
   </main>
-</body>
+  <Footer />
+</>
