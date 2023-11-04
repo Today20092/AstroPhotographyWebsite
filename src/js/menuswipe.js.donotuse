@@ -1,0 +1,26 @@
+let touchStartX = null;
+let touchEndX = null;
+
+const mobileMenu = document.querySelector('.lg\\:hidden'); // Select the mobile menu element
+
+mobileMenu.addEventListener('touchstart', (e) => {
+  touchStartX = e.touches[0].clientX;
+});
+
+mobileMenu.addEventListener('touchend', (e) => {
+  touchEndX = e.changedTouches[0].clientX;
+
+  const swipeThreshold = 50; // Adjust this value as needed
+
+  if (touchStartX - touchEndX > swipeThreshold) {
+    // Swipe left, close the menu
+    mobileMenu.style.display = 'none';
+  } else if (touchEndX - touchStartX > swipeThreshold) {
+    // Swipe right, open the menu
+    mobileMenu.style.display = 'block';
+  }
+
+  // Reset touch values
+  touchStartX = null;
+  touchEndX = null;
+});

@@ -1,0 +1,15 @@
+# From Astro website's gitbhub
+# https://github.dev/withastro/astro.build/blob/main/tailwind.config.ts
+dist/
+node_modules/
+pnpm-lock.yaml
+.netlify/
+.vercel/
+.astro/
+public/_redirects
+public/_headers
+src/content/blog/*.mdx
+
+# Mine
+/src/components/TopHead.astro
+# /src/pages/newindex.astro
