@@ -3,5 +3,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  text-rendering: optimizeLegibility;
   /* border: red 1px solid; */
 }
